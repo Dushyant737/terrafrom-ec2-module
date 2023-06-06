@@ -1,5 +1,5 @@
 resource "aws_security_group" "dksg_2" {
-  name        = "dk_sg_2"
+  name        = "dksg_2"
   description = "Allow TLS inbound traffic"
   vpc_id      = data.terraform_remote_state.vpc.outputs.vpc_id
 
